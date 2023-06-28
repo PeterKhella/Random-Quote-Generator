@@ -1,0 +1,52 @@
+.body{
+    background-color: rgb(161, 204, 227);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: block;
+    width: 95%;
+    height: 100vw;
+}
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    background-color: rgb(221, 230, 238);
+    text-align: center;
+    height: 450px; 
+    margin: 10px 0px;
+    border: solid 20px rgb(243, 213, 155);
+    border-radius: 10%;
+
+}
+.quotes p{
+    font-size: 2.5rem;
+}
+.quotes h3{
+    font-size: 3.5rem;
+    font-style: italic;
+}
+
+.quote{
+
+}
+.author{
+    text-align: right;
+}
+.lower-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+
+}
+
+@media(max-width:480px) {
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+    
+}
